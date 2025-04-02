@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { useLocation } from "react-router-dom";
+import { useLocation, Link } from "react-router-dom";
 import "./Navbar.css";
 
 const Navbar = () => {
@@ -29,7 +29,9 @@ const Navbar = () => {
         <ul className="navbar-list">
           {navbarElements.map((element, index) => (
             <li key={index}>
-              <a href={element.href}>{element.label}</a>
+              <Link to={element.href} onClick={() => setIsVisible(false)}>
+                {element.label}
+              </Link>
             </li>
           ))}
         </ul>
