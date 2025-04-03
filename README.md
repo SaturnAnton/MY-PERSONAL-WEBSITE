@@ -1,58 +1,13 @@
-<<<<<<< HEAD
 # MY-PERSONAL-WEBSITE
-=======
-<<<<<<< HEAD
-# React + TypeScript + Vite
+![Anteprima del sito](screenshot.png)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Hello everyone, this is my personal website. I developed it using React and Vite, writing the code in TypeScript and CSS. Additionally, I utilized the Vercel platform for deployment and online hosting.
 
-Currently, two official plugins are available:
+<img src="https://upload.wikimedia.org/wikipedia/commons/f/f1/Vitejs-logo.svg" alt="Vite" width="50"/> <img src="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg" alt="React" width="50"/>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## LANGUAGES USED 
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
-
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
-
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
-
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
-=======
-# MY-PERSONAL-WEBSITE
->>>>>>> c2d9eb922c732f4757c64206fe1b1940ebae1883
->>>>>>> fa3b7ee (Inizializzazione della repository)
+| Linguaggio   | Logo |
+|-------------|------|
+| **CSS**     | <img src="https://upload.wikimedia.org/wikipedia/commons/6/62/CSS3_logo.svg" width="40"/> |
+| **TypeScript** | <img src="https://upload.wikimedia.org/wikipedia/commons/4/4c/Typescript_logo_2020.svg" width="40"/> |
