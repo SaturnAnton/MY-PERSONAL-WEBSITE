@@ -1,5 +1,6 @@
 # MY-PERSONAL-WEBSITE
-![Anteprima del sito](screenshot.png)
+![Anteprima del sito](public/screenshot.png)
+
 
 Hello everyone, this is my personal website. I developed it using React and Vite, writing the code in TypeScript and CSS. Additionally, I utilized the Vercel platform for deployment and online hosting.
 
