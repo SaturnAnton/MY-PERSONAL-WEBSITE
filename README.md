@@ -11,7 +11,7 @@ Hello everyone, this is my personal website. I developed it using React and Vite
 
 
 ## LANGUAGES USED  
-| Linguaggio   | Logo |
+| LANGUAGE   | Logo |
 |-------------|------|
 | **CSS**     | <img src="https://upload.wikimedia.org/wikipedia/commons/6/62/CSS3_logo.svg" width="40"/> |
 | **TypeScript** | <img src="https://upload.wikimedia.org/wikipedia/commons/4/4c/Typescript_logo_2020.svg" width="40"/> |
