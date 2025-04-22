@@ -20,10 +20,26 @@ function HomePage() {
             </div>
             <Navbar />
             <div className="elenco">
-            <p>INSTAGRAM: _antongiulio.d</p>
-            <p>GITHUB: SaturnAnton</p>
-            <p>EMAIL: antongiuliodonno1@gmail.com</p>
-            </div>
+    <p>
+        INSTAGRAM: 
+        <a href="https://www.instagram.com/_antongiulio.d" 
+            target="_blank"
+            rel="noopener noreferrer"
+            className="profile-link2">
+            _antongiulio.d
+        </a>
+    </p>
+    <p>GITHUB: 
+        <a href="https://github.com/SaturnAnton" 
+            target="_blank"
+            rel="noopener noreferrer"
+            className="profile-link2">
+            SaturnAnton
+        </a>
+    </p>
+    <p>EMAIL: antongiuliodonno1@gmail.com</p>
+</div>
+
             <div className="link-container">
                 <a 
                     href="https://en.wikipedia.org/wiki/Seto_Kaiba" 

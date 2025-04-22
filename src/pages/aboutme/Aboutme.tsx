@@ -5,7 +5,7 @@ function Aboutme(){
     return (
         <>
         <Navbar />
-        <h1 className="center">Hi, my name is Antongiulio Donno</h1>
+        <h1 className="center">Hi, I'm Antongiulio Donno</h1>
           <div className = "introduction">
             <p>I'm 20 years old and I study Computer Science at University of Verona (UniVr).
                 I am a sociable person with a natural sense of humor, although I can
