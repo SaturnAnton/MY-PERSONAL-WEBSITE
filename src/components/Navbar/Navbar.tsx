@@ -14,28 +14,36 @@ const Navbar = () => {
   ];
 
   const toggleNavbar = () => {
-    setIsVisible(!isVisible);
+    setIsVisible((prevState) => !prevState);
+  };
+
+  const handleLinkClick = () => {
+    setIsVisible(false);
   };
 
   return (
-    <div>
+    <div className="navbar-container">
       {/* Bottone per mostrare/nascondere la navbar */}
-      <button className="menu-button" onClick={toggleNavbar}>
-        ☰ Menu
-      </button>
+      {!isVisible && (
+        <button className="menu-button" onClick={toggleNavbar}>
+          ☰ Menu
+        </button>
+      )}
 
       {/* Navbar */}
-      <nav className={`navbar ${isVisible ? "visible" : "hidden"}`}>
-        <ul className="navbar-list">
-          {navbarElements.map((element, index) => (
-            <li key={index}>
-              <Link to={element.href} onClick={() => setIsVisible(false)}>
-                {element.label}
-              </Link>
-            </li>
-          ))}
-        </ul>
-      </nav>
+      {isVisible && (
+        <nav className="navbar visible">
+          <ul className="navbar-list">
+            {navbarElements.map((element, index) => (
+              <li key={index} className="navbar-item">
+                <Link to={element.href} onClick={handleLinkClick} className="navbar-link">
+                  {element.label}
+                </Link>
+              </li>
+            ))}
+          </ul>
+        </nav>
+      )}
     </div>
   );
 };
