@@ -7,7 +7,7 @@ function HomePage() {
             <div className="profile-container">
                 <div className="description-container">
                     <h1 className="profile-name">Antongiulio Donno</h1>
-                    <h2 className="profile-title">Computer Science Student at UniVr</h2>
+                    <h2 className="profile-title">Computer Engineering Student at PoliTo</h2>
                     <p className="profile-location">Verona, Italy</p>
                 </div>
                 <div className="image-container">
